@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.container {
+    border: 1px solid;
+    width: 1236px;
+    height: 3300px;
+    margin: 0 auto;
+}
+.nav {
+    width: 100%;
+    height: 72px;
+    display: flex;
+     justify-content: space-between;
+}
+.left {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+.left h1 {
+    font-size: 12px;
+    color: darkgray;
+}
+.left h2 {
+    font-size: 12px;
+    padding-left: 15px;
+}
+.right ul{
+    display: flex;
+    padding-top: 25px;
+    list-style: none;
+    font-size: 12px;
+    
+}
+ul li {
+    margin: 0 24px;
+}
+.header {
+    display: flex;
+}
+.left1{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.left1 p {
+    font-size: 15px;
+}
+.left1 button {
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.right1{
+    
+    width: 50%;
+    height: 500px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1 {
+ 
+    width: 272px;
+    height: 326px;
+    border-radius: 35px;
+    background-image: url(./stul.png);
+  
+}
+.box1 p {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.box2 {
+    
+    width: 272px;
+    height: 326px;
+    border-radius: 35px;
+    background-image: url(./baloon.png);
+  
+}
+.box2 p {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.box3 {
+    
+    width: 272px;
+    height: 326px;
+    border-radius: 35px;
+    background-image: url(./shake.png);
+  
+}
+.box3 p {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.box4 {
+    width: 272px;
+    height: 326px;
+    border-radius: 35px;
+    background-image: url(./delivery.png);
+  
+}
+.box4 p {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.banner1 {
+    padding-top: 90px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.top1 {
+    display: flex;
+    justify-content:space-around;
+}
+.left2 {
+    
+    width: 160px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(./Rectangle\ 4.png)
+}
+.left2 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left2 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.left3 {
+    
+    width: 230px;
+    height: 170px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    background-image: url(./Rectangle\ 4\ \(1\).png)
+}
+.left3 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left3 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.left4 {
+    
+    width: 200px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(./Rectangle\ 4\ \(2\).png)
+}
+.left4 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left4 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.bottom1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.left5  {
+    width: 160px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(./Rectangle\ 4\ \(3\).png);
+    margin-left: 100px;
+}
+.left5 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left5 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.left6 {
+   
+    width: 230px;
+    height: 170px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    background-image: url(./Rectangle\ 4\ \(4\).png)
+}
+.left6 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left6 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.left7 {
+    margin-right: 100px;
+    width: 200px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(./Rectangle\ 4\ \(5\).png)
+}
+.left7 h2{
+    padding-top: 180px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.left7 p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(179, 179, 179);
+}
+.alone h1{
+   padding-top: 90px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+.one {
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+}
+.rasm {
+    width: 120px;
+    height: 160px;
+    background-image: url(./1.png); 
+    
+}
+.rasm h2 {
+    font-size: 20px;
+    margin-left: 140px;
+    
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.rasm p {
+    font-size: 12px;
+     margin-left: 140px;
+     
+     width: 180px;
+     color: rgb(150, 148, 148);
+}
+.rasm2 {
+    width: 120px;
+    height: 160px;
+    background-image: url(./Rectangle\ 5\ \(1\).png);
+}.rasm2 p {
+    font-size: 12px;
+     margin-left: 140px;
+     
+     width: 180px;
+     color: rgb(150, 148, 148);
+}
+.rasm2 h2 {
+    font-size: 20px;
+    margin-left: 140px;
+    
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.rasm3 {
+    margin-right: 50px;
+    width: 120px;
+    height: 160px;
+    background-image: url(./photo.png);
+}
+.rasm3 p {
+    font-size: 12px;
+     margin-left: 140px;
+     
+     width: 180px;
+     color: rgb(150, 148, 148);
+}
+.rasm3 h2 {
+    font-size: 20px;
+    margin-left: 140px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.rasm3 p{
+    
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    margin-right: px;
+}
+.line {
+    background-image: url(./Rectangle\ 5\ \(4\).png);
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.line h1 {
+    font-size: 20px;
+    margin-left: 150px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.line p {
+     font-size: 12px;
+     margin-left: 150px;
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.line2 {
+    background-image: url(./Rectangle\ 5\ \(5\).png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 70px;
+  
+}
+.line2 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.line2 p {
+     font-size: 12px;
+     margin-left: 140px;
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.line3 {
+    background-image: url(./Rectangle\ 5\ \(6\).png);
+    background-repeat: no-repeat;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.line3 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.line3 p {
+    font-size: 12px;
+     margin-left: 140px;
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.three {
+    display: flex;
+    justify-content: center;
+    margin-right: px;
+}
+.sign {
+    background-image: url(./Rectangle\ 5\ \(7\).png);
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.sign h1 {
+    font-size: 20px;
+    margin-left: 150px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.sign p {
+    font-size: 12px;
+     margin-left: 150px;
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.sign2 {
+    background-image: url(./Rectangle\ 5\ \(3\).png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 70px;
+  
+}
+.sign2 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.sign2 p {
+    font-size: 12px;
+     margin-left: 140px;
+     
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.sign3 {
+    background-image: url(./Rectangle\ 5\ \(2\).png);
+    background-repeat: no-repeat;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.sign3 h1 {
+    font-size: 20px;
+    margin-left: 140px;
+    width: 20px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 250;
+}
+.sign3 p {
+       font-size: 12px;
+     margin-left: 140px;
+     
+     width: 180px;
+     height: 100px;
+     color: rgb(150, 148, 148);
+}
+.alone2 {
+    border: 1px solid;
+    width:230px ;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 480px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(229, 226, 226);
+}
+.alone2 h2 {
+    font-size: 16px;
+    font-weight: 500;
+     margin-top: 9px;
+} 
+.alone3 h2{
+    margin-left: 130px;
+    font-weight: 550;
+    margin-top: 100px;
+}
